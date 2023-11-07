@@ -36,6 +36,7 @@ formulario.addEventListener('submit', async (e) => {
         .then((data) => {
             respuesta = data.mensaje;
             window.alert(respuesta);
+            formulario.reset();
         });
 
     console.log(respuesta);
