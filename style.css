@@ -811,6 +811,17 @@
   
   /* SOBRE NOSOTROS */
   
-  
-  
-  
+  /*  ELABORADO POR JUAN GONZALEZ  */
+.input-formulario {
+    padding: 3%;
+}
+
+.input-formulario input, .input-formulario textarea{
+    width: 70%;
+    border-color: var(--quick-silver);
+    border-radius: 20px;
+    margin-bottom: 2%;
+    color: var(--quick-silver);
+    background-color: var(--smoky-black-1);
+    text-align: center;
+}
