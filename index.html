@@ -474,109 +474,68 @@
         <!-- SOBRE NOSOTROS -->
 
         
-
         <!-- RESERVACION -->
+        <!-- ELABORADO POR JUAN GONZALEZ HASTA LA PARTE DEL FORMULARIO DE CONTACTO -->
         <section class="reservation">
-            <div class="container">
-              <div class="form reservation-form bg-black-10">
-                <form action="" class="form-left">
-                  <h2 class="headline-1 text-center">Reservacion Online</h2>
-                  <p class="form-text text-center">
-                    Solicitud de Reservacion
-                    <a href="tel:04125293523" class="link">0412-5293525</a>
-                    o llena nuestro formulario
-                  </p>
-  
-                  <div class="imput-wrapper">
-                    <input type="text" name="name" placeholder="Nombre" autocomplete="off"
-                    class="imput-field">
-  
-                    <input type="tel" name="phone" placeholder="Numero de Telefono" autocomplete="off"
-                    class="imput-field">
-                    
-  
-                  </div>
-  
-                  <div class="input-wrapper">
-  
-                    <div class="icon-wrapper">
-                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-  
-                      <select name="person" class="input-field">
-                        <option value="1-person">1 persona</option>
-                        <option value="2-person">2 personas</option>
-                        <option value="3-person">3 personas</option>
-                        <option value="4-person">4 personas</option>
-                        <option value="5-person">5 personas</option>
-                        <option value="6-person">6 personas</option>
-                        <option value="7-person">7 personas</option>
-                      </select>
-  
-                      <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
-                    </div>
-  
-                    <div class="icon-wrapper">
-                      <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
-  
-                      <input type="date" name="reservation-date"  class="input-field">
-  
-                      <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
-                    </div>
-  
-                    <div class="icon-wrapper">
-                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-  
-                      <select name="person" class="input-field">
-                        <option value="6:00a.m.">6:00 a.m.</option>
-                        <option value="7:00a.m.">7:00 a.m.</option>
-                        <option value="8:00a.m.">8:00 a.m.</option>
-                        <option value="9:00a.m.">9:00 a.m.</option>
-                        <option value="10:00a.m.">10:00 a.m.</option>
-                        <option value="11:00a.m.">11:00 a.m.</option>
-                        <option value="12:00p.m.">12:00 p.m.</option>
-                        <option value="1:00p.m.">1:00 p.m.</option>
-                        <option value="2:00p.m.">2:00 p.m.</option>
-                        <option value="3:00p.m.">3:00 p.m.</option>
-                        <option value="4:00p.m.">4:00 p.m.</option>
-                        <option value="5:00p.m.">5:00 p.m.</option>
-                        <option value="6:00p.m.">6:00 p.m.</option>
-                        <option value="7:00p.m.">7:00 p.m.</option>
-                        <option value="8:00p.m.">8:00 p.m.</option>
-                        <option value="9:00p.m.">9:00 p.m.</option>
-                        <option value="10:00p.m.">10:00 p.m.</option>
-                        <option value="11:00p.m.">11:00 p.m.</option>
-                      </select>
-  
-                      <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
-                    </div>
-  
-                  </div>
-  
-                  <textarea name="message" placeholder="Mensaje" autocomplete="off" 
-                  class="input-field"></textarea>
-  
-                  <button type="submit" class="btn btn-secondary">
-                    <span class="text text-1">Reserva Una Mesa</span>
-  
-                    <span class="text text-2" aria-hidden="true">Reserva Una Mesa</span>
-                  </button>
-      
-                </form>
-  
-                <div class="form-right text-center" style="background-image: url('./imagenes/patrones 1.png');">
+          <div class="container">
+            <div class="form reservation-form bg-black-10">
+              <p class="form-text text-center">
+                Solicitud de Reservacion
+                <a href="tel:04125293523" class="link">0412-5293525</a>
                 
-                  <h2 class="headline-1 text-center">Contactanos</h2>
-  
-                  <p class="contact-label">Solicitud de Reserva</p>
-  
-                  
-  
-                </div>
-  
+              <div class="form-right text-center" style="background-image: url('./imagenes/patrones 1.png');">
+                
+
+                <p class="contact-label">Solicitud de Reserva</p>
+                </p>
+                
+                
+
               </div>
-  
+
             </div>
-          </section>
+
+          </div>
+        </section>
+
+        <!--CONTACTANOS-->
+        <section class="Contactanos">
+          <form method="POST" id="formulario" class="form-left">
+            <h2 class="headline-1 text-center">Contactanos</h2>
+    
+            <div class="input-formulario">
+              <input type="text" name="name" placeholder="Nombre" autocomplete="off" required
+              class="imput-field">
+    
+              <input type="email" name="email" placeholder="correo@example.com" autocomplete="off" required
+              class="imput-field">
+              
+              <input type="number" name="cedula" placeholder="Numero de cedula" autocomplete="off" required
+              class="imput-field">
+  
+              <input type="date" name="birthday" required
+              class="imput-field">
+              
+              <input type="tel" name="telefono" placeholder="Numero de telefono" autocomplete="off" required
+              class="imput-field">
+
+              <input type="text" name="asunto" placeholder="Asunto" autocomplete="off" required
+              class="imput-field">
+              
+              <textarea name="msj" placeholder="Mensaje" autocomplete="off" 
+              class="input-field"></textarea>
+              
+            </div>   
+    
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Enviar Mensaje</span>
+    
+              <span class="text text-2" aria-hidden="true">Enviar Mensaje</span>
+            </button>
+    
+          </form>
+        </section>
+
         
       </article>
     </main>
