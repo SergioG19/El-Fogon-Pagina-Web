@@ -10,11 +10,13 @@ Este proyecto es una pequeña landing page para un restaurante que incluye anima
     ```
 
 2. Ejecuta el servidor con el siguiente comando para mantenerlo iniciado durante el desarrollo:
-    bash
+    ```bash
     npm run dev
+    ```
 
 ## Estructura del Proyecto
 
+```plaintext
 /
 |-- backend/
 |   |-- src/
@@ -35,7 +37,7 @@ Este proyecto es una pequeña landing page para un restaurante que incluye anima
 |-- style.css
 |-- script.js
 |-- README.md
-
+```
 - backend/: Contiene los archivos del servidor backend, como controladores, modelos y rutas.
 - index.html: Archivo principal de la landing page.
 - api.js: Archivo que define la interfaz para la comunicación con el backend.
