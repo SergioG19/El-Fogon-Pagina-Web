@@ -5,9 +5,9 @@ Este proyecto es una pequeña landing page para un restaurante que incluye anima
 ## Instrucciones de Instalación
 
 1. Instala todas las dependencias utilizando el siguiente comando:
-    bash
+    ```bash
     npm install
-    
+    ```
 
 2. Ejecuta el servidor con el siguiente comando para mantenerlo iniciado durante el desarrollo:
     bash
