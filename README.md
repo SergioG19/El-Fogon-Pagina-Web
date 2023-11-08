@@ -2,6 +2,16 @@
 
 Este proyecto es una pequeña landing page para un restaurante que incluye animaciones CSS para un aspecto elegante. Además, cuenta con una sección de contacto que se conecta con el backend a través de la API definida en el archivo `api.js`.
 
+## Integrantes
+
+-Sergio González
+-Luis Martinez
+-María Suarez
+-Juan González
+
+## Enlace a los archivos y video
+https://drive.google.com/drive/folders/1d-itylIxu2OiLR2QdbQU0XGxJYguPic2
+
 ## Instrucciones de Instalación
 
 1. Instala todas las dependencias utilizando el siguiente comando:
